@@ -4,6 +4,8 @@ url = "https://www.aerzteblatt.de/archiv/suche?s=gyn%E4kologie&titel=&autor=&fg=
 entrySelector = ".jsHitlist > .jsHitlistTitle > a"
 titleSelector = ".jsHitlistCategory"
 linkSelector = "h2 a"
+waitUntil = "domcontentloaded"
+onFail = "skip"
 
 [wikivoyage]
 title = "Wikivoyage recommendations"
