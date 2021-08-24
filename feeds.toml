@@ -1,9 +1,9 @@
 [funfacts]
 title = "Wikipedia — did you know?"
-url = "https://en.wikipedia.org/wiki/Main_Page"
-entrySelector = "#mp-dyk > ul li"
-titleSelector = "b"
-linkSelector = "b a"
+url = "https://www.aerzteblatt.de/archiv/suche?s=gyn%E4kologie&titel=&autor=&fg=&jahr=&nr=&seite=&doi=&rss"
+entrySelector = ".jsHitlist > .jsHitlistTitle"
+titleSelector = "a"
+linkSelector = "a"
 
 [wikivoyage]
 title = "Wikivoyage recommendations"
